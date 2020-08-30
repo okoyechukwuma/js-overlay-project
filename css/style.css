@@ -91,15 +91,14 @@ body{
     right: 1rem;
     font-size: 1.4rem;
     cursor: pointer;
-    transition: transform .4s linear;
-    color: red;
-    background: #eee;
+    transition: color .4s linear;
+    color: #999;
     padding: .5rem .7rem;
     border-radius: 50%;
 }
 
 .fa-times:hover{
-    transform: rotate(720deg);
+    color: #000;
 }
 
 .date-container{
